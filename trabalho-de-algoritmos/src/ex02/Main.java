@@ -10,8 +10,7 @@ public class Main {
 
 		System.out.println("digite um numero inteiro e positivo");
 		N = entrada.nextInt();
-		
-		
+
 		if (N < 0) {
 			System.out.println("O Número digitado não é positivo");
 			return;

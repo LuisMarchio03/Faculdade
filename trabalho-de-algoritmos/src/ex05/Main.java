@@ -9,14 +9,14 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
 
-		System.out.println("Quantidade de funcion�rios: ");
+		System.out.println("Quantidade de funcionarios: ");
 		int n = sc.nextInt();
 		Funcionario[] vect = new Funcionario[n];
 
 		for (int i = 0; i < vect.length; i++) {
-			System.out.println("Informe o c�digo do funcion�rio: ");
+			System.out.println("Informe o c�digo do funcionario: ");
 			int cod = sc.nextInt();
-			System.out.println("N�mero de horas trabalhadas no m�s: ");
+			System.out.println("Número de horas trabalhadas no mês: ");
 			double numeroHorasMes = sc.nextDouble();
 			System.out.println("Turno de Trabalho (M - Matutino, V - Vespertino ou N - Noturno): ");
 			char turno = sc.next().charAt(0);

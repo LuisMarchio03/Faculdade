@@ -7,9 +7,9 @@ public class Eleicao {
 		Scanner entrada = new Scanner(System.in);
 		int cod, tc1 = 0, tc2 = 0, tc3 = 0, tc4 = 0, vnul = 0, vbran = 0;
 		System.out.println("---------------------");
-		System.out.println("| JUSTI�A ELEITORAL |");
+		System.out.println("| JUSTIÇA ELEITORAL |");
 		System.out.println("---------------------");
-		System.out.println("  Tabela de c�digos  ");
+		System.out.println("  Tabela de códigos  ");
 		System.out.println("Primeiro candidato: 1");
 		System.out.println("Segundo candidato: 2");
 		System.out.println("Terceiro candidato: 3");
@@ -18,7 +18,7 @@ public class Eleicao {
 		System.out.println("Voto em branco: 6");
 		System.out.println(" \n");
 		for (int i = 0; i <= 13; i++) {
-			System.out.println("Informe o c�digo do voto: ");
+			System.out.println("Informe o código do voto: ");
 			cod = entrada.nextInt();
 			switch (cod) {
 			case 1:
